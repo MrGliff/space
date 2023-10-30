@@ -1,0 +1,105 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color:#0c192c;
+    font-family: monospace, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style the page title */
+h1 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style section headers */
+h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Style paragraphs */
+p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the bold, italic, and underlined text within paragraphs */
+p b, p i, p u {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Style the list items */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+    margin-top: 10px;
+}
+
+/* Style the different types of asteroids */
+ul b {
+    color: #009688;
+}
+
+ul {
+    color: white;
+}
+
+/* Style the conclusion paragraph differently */
+h2 + p {
+    font-style: italic;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add a border to images if you have any */
+img {
+    border: 2px solid #333;
+    max-width: 100%;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 50px; /* Adjust this value to control the spacing */
+}
+
+a {
+    color: #0077B6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+br {
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+nav {
+    text-align: center;
+}
